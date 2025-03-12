@@ -1,0 +1,25 @@
+{
+  "extends": "astro/tsconfigs/strict", // strictモードの設定を継承
+  "compilerOptions": {
+    "baseUrl": ".", // 相対パスの基準となるルートディレクトリを設定
+    "strictNullChecks": true, // nullのチェックを厳格にする
+    "allowJs": false, // JavaScriptファイルの使用を禁止
+    "declaration": true, // 型定義ファイル(.d.ts)を生成
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin" // Astro用のTypeScriptプラグインを使用
+      }
+    ],
+    "paths": {
+      // モジュールのエイリアス設定
+      "@components/*": ["src/components/*"], // @componentsでsrc/componentsにアクセス
+      "@assets/*": ["src/assets/*"], // @assetsでsrc/assetsにアクセス
+      "@constants/*": ["src/constants/*"], // @constantsでsrc/constantsにアクセス
+      "@utils/*": ["src/utils/*"], // @utilsでsrc/utilsにアクセス
+      "@i18n/*": ["src/i18n/*"], // @i18nでsrc/i18nにアクセス
+      "@layouts/*": ["src/layouts/*"], // @layoutsでsrc/layoutsにアクセス
+      "@/*": ["src/*"] // @でsrc直下にアクセス
+    }
+  },
+  "include": ["src/**/*"] // srcディレクトリ以下の全ファイルを対象にする
+}

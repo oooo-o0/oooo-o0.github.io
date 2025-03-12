@@ -1,9 +1,27 @@
-# About
-勉強内容のインプット用サイト [Dev Wiki](https://github.com/me-o0/Note).
+# 個人ブログ
+**勉強内容のインプット用サイト** [Dev Wiki](https://oooo-o0.github.io/).
+::github{repo="oooo-o0/oooo-o0.github.io"}
+<br>
 
-::github{repo="me-o0/wiki"}
+# 個人開発
+ファイルアップロード機能
+::github{repo="oooo-o0/FileUp"}
+ユーザー認証機能
+::github{repo="oooo-o0/Authentication"}
+商品一覧確認機能
+::github{repo="oooo-o0/ItemList"}
+施設利用予約機能
+::github{repo="oooo-o0/Reservation"}
+会員管理機能
+::github{repo="oooo-o0/MemberCRM"}
+APIを利用した会員管理システム
+::github{repo="oooo-o0/apiCRM"}
+複数テーブルの連携に対応した会員管理システム
+::github{repo="oooo-o0/NetCRM"}
 
-> ### 参考文献
+<br>
+
+# 参考文献
 > - [とほほのWWW入門](https://www.tohoho-web.com/www.htm) 
 > - [ひしだま's 技術メモページ](https://www.ne.jp/asahi/hishidama/home/tech/)
 > - [Web制作、Web開発の歩き方](https://baapuro.com/)
@@ -30,6 +48,7 @@
 > - [MIXI新卒技術研修資料](https://mixi-developers.mixi.co.jp/23-technical-training-20a6f610140c)
 > - [iOS Development Training](https://github.com/mixi-inc/iOSTraining)
 > - [Android Development Training](https://github.com/mixi-inc/AndroidTraining)
->
-> ### 公式リファレンス
+
+
+# 公式リファレンス
 > - [Mdn web docs_](https://developer.mozilla.org/ja/docs/Web)

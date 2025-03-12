@@ -4,19 +4,19 @@
 <br>
 
 # 個人開発
-ファイルアップロード機能
+**ファイルアップロード機能**
 ::github{repo="oooo-o0/FileUp"}
-ユーザー認証機能
+**ユーザー認証機能**
 ::github{repo="oooo-o0/Authentication"}
-商品一覧確認機能
+**商品一覧確認機能**
 ::github{repo="oooo-o0/ItemList"}
-施設利用予約機能
+**施設利用予約機能**
 ::github{repo="oooo-o0/Reservation"}
-会員管理機能
+**会員管理機能**
 ::github{repo="oooo-o0/MemberCRM"}
-APIを利用した会員管理システム
+**APIを利用した会員管理システム**
 ::github{repo="oooo-o0/apiCRM"}
-複数テーブルの連携に対応した会員管理システム
+**複数テーブルの連携に対応した会員管理システム**
 ::github{repo="oooo-o0/NetCRM"}
 
 <br>

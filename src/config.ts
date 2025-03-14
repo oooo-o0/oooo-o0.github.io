@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About, // 自己紹介ページへのリンク
     {
       name: 'GitHub',
-      url: 'https://github.com/me-o0', // 外部リンク (GitHub)
+      url: 'https://github.com/oooo-o0', // 外部リンク (GitHub)
       external: true, // 別タブで開き、外部リンクアイコンを表示
     },
   ],
@@ -71,7 +71,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/me-o0',
+      url: 'https://github.com/oooo-o0',
     },
   ],
 }

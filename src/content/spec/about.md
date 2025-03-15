@@ -22,59 +22,67 @@
 <br>
 
 # 参考文献
-> - Web開発
-> [とほほのWWW入門](https://www.tohoho-web.com/www.htm) 
-> [ひしだま's 技術メモページ](https://www.ne.jp/asahi/hishidama/home/tech/)
-> [Web制作、Web開発の歩き方](https://baapuro.com/)
-> [Let'sプログラミング](https://www.javadrive.jp/)
-> [テックスコア](https://www.techscore.com/)
-> [言語科学研究所](https://www.bohyoh.com/index.html)
-> [お気楽プログラミング](https://www.nct9.ne.jp/m_hiroi/index.html)
-> [一週間で学べるシリーズ](https://sevendays-study.com/)
-> [ボールド社員によるエンジニア向け情報サイト](https://www.bold.ne.jp/engineer-club/category/technical)
-> [オープンエデュケーション](https://tmytokai.github.io/open-ed/)
-> [workteria](https://workteria.forward-soft.co.jp/blog/author/C00007)
+> **Web開発**<br>
+> [とほほのWWW入門](https://www.tohoho-web.com/www.htm) <br>
+> [ひしだま's 技術メモページ](https://www.ne.jp/asahi/hishidama/home/tech/)<br>
+> [Web制作、Web開発の歩き方](https://baapuro.com/)<br>
+> [Let'sプログラミング](https://www.javadrive.jp/)<br>
+> [テックスコア](https://www.techscore.com/)<br>
+> [言語科学研究所](https://www.bohyoh.com/index.html)<br>
+> [お気楽プログラミング](https://www.nct9.ne.jp/m_hiroi/index.html)<br>
+> [一週間で学べるシリーズ](https://sevendays-study.com/)<br>
+> [ボールド社員によるエンジニア向け情報サイト](https://www.bold.ne.jp/engineer-club/category/technical)<br>
+> [オープンエデュケーション](https://tmytokai.github.io/open-ed/)<br>
+> [workteria](https://workteria.forward-soft.co.jp/blog/author/C00007)<br>
 > [Programmer Life](https://programmer-life.work/)
 > <br>
-> - HTML・CSS
-> [HTML&CSS Web制作リファレンス](https://www.tagindex.com/)
+> <br>
+> **HTML・CSS**<br>
+> [HTML&CSS Web制作リファレンス](https://www.tagindex.com/)<br>
 > [HTML&CSS｜超初級編](https://webliker.info/material_cat/html-css-beginner/)
 > <br>
-> - JavaScript・TypeScript
-> [JavaScript Primer](https://jsprimer.net/)
+> <br>
+> **JavaScript・TypeScript**<br>
+> [JavaScript Primer](https://jsprimer.net/)<br>
 > [サバイバルTypeScript](https://typescriptbook.jp/)
 > <br>
-> - Java
-> [Javaコード辞典](https://java-code.jp/)
-> [やり直しJava](https://relearn-java.netlify.app/)
+> <br>
+> **Java**<br>
+> [Javaコード辞典](https://java-code.jp/)<br>
+> [やり直しJava](https://relearn-java.netlify.app/)<br>
 > [JavaFAQ](https://raigar.main.jp/java/faq/javafaq.html)
 > <br>
-> - Python
+> <br>
+> **Python**<br>
 > [Python 3.10.16 ドキュメント](https://docs.python.org/ja/3.10/index.html)
 > <br>
-> - フレームワーク・ライブラリ
+> <br>
+> **フレームワーク・ライブラリ**<br>
 > [Angular チュートリアル](https://angular.jp/tutorials/learn-angular)
 > <br>
-> - その他
-> [超特急: 一時間でわかるML超入門](https://esumii.github.io/min-caml/index2.html)
-> [CS50 for Japanese: コンピュータサイエンスの入門](https://cs50.jp/)
-> [MIXI新卒技術研修資料](https://mixi-developers.mixi.co.jp/23-technical-training-20a6f610140c)
-> [iOS Development Training](https://github.com/mixi-inc/iOSTraining)
+> <br>
+> **その他**<br>
+> [超特急: 一時間でわかるML超入門](https://esumii.github.io/min-caml/index2.html)<br>
+> [CS50 for Japanese: コンピュータサイエンスの入門](https://cs50.jp/)<br>
+> [MIXI新卒技術研修資料](https://mixi-developers.mixi.co.jp/23-technical-training-20a6f610140c)<br>
+> [iOS Development Training](https://github.com/mixi-inc/iOSTraining)<br>
 > [Android Development Training](https://github.com/mixi-inc/AndroidTraining)
 
 
 # 公式リファレンス
-> - HTML・CSS 
+> **HTML・CSS** <br>
 > [Mdn web docs_](https://developer.mozilla.org/ja/docs/Web)
 > <br>
-> - Java 
+> <br>
+> **Java** <br>
 > [Java API](https://docs.oracle.com/javase/jp/21/docs/api/index.html)
 > <br>
-> - フレームワーク・ライブラリ
-> [Emmet API](https://docs.emmet.io/cheat-sheet/)
-> [Bootstrap API](https://getbootstrap.jp/docs/5.3/getting-started/introduction/)
-> [Spring Boot 3.4.3 API](https://spring.pleiades.io/spring-boot/api/java/)
-> [Spring API](https://spring.pleiades.io/)
-> [thymeleaf 3.0.6.RELEASE API](https://www.thymeleaf.org/apidocs/thymeleaf/3.0.6.RELEASE/index.html?org/)
-> [チュートリアル: Thymeleaf + Spring](https://www.thymeleaf.org/doc/tutorials/3.1/thymeleafspring.html)
+> <br>
+> **フレームワーク・ライブラリ**<br>
+> [Emmet API](https://docs.emmet.io/cheat-sheet/)<br>
+> [Bootstrap API](https://getbootstrap.jp/docs/5.3/getting-started/introduction/)<br>
+> [Spring Boot 3.4.3 API](https://spring.pleiades.io/spring-boot/api/java/)<br>
+> [Spring API](https://spring.pleiades.io/)<br>
+> [thymeleaf 3.0.6.RELEASE API](https://www.thymeleaf.org/apidocs/thymeleaf/3.0.6.RELEASE/index.html?org/)<br>
+> [チュートリアル: Thymeleaf + Spring](https://www.thymeleaf.org/doc/tutorials/3.1/thymeleafspring.html)<br>
 > [チュートリアル: Thymeleaf](https://getbootstrap.jp/docs/5.3/getting-started/introduction/)

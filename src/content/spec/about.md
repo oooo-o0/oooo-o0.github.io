@@ -1,3 +1,55 @@
+# 習得度（3段階評価★★★）
+
+- ★★★ : インターネットや教本等を利用し、自身の力のみで課題解決できる  
+- ★★ : 講師等のサポートがあれば、課題を解決できる  
+- ★ : 学習済みで概要をおおまかに理解している  
+
+## 言語
+- **HTML** ★★★  
+- **CSS** ★★★  
+- **Java** ★★★  
+- **Servlet** ★★★  
+- **JSP** ★★★  
+- **SQL** ★★★  
+- **Markdown** ★★★  
+
+## OS
+- **Windows** ★★★  
+- **Mac** ★★★  
+- **Linux（ターミナル/TeraTerm）** ★★★  
+
+## フレームワーク・ライブラリ
+- **Bootstrap** ★★  
+- **jQuery** ★★  
+- **chart.js** ★★  
+- **Node.js** ★★  
+- **React** ★★  
+- **Astro** ★★  
+- **Spring Boot** ★★★  
+- **Lombok** ★★★  
+- **Thymeleaf** ★★★  
+- **MyBatis** ★★★  
+- **Validation** ★★★  
+
+## データベース
+- **MySQL** ★★★  
+
+## プラットフォーム
+- **Eclipse** ★★★  
+- **VSCode** ★★★  
+- **Slack** ★★★  
+- **VirtualBox** ★★  
+- **Notion** ★★★  
+- **WordPress** ★★  
+- **GitHub** ★★★  
+- **Figma** ★★  
+- **Nextcloud** ★★  
+- **レンタルサーバー** ★★  
+
+## パッケージ管理
+- **Homebrew** ★★★  
+- **npm** ★★  
+
 # 個人ブログ
 **学習サイト** [Dev Wiki](https://oooo-o0.github.io/).
 ::github{repo="oooo-o0/oooo-o0.github.io"}

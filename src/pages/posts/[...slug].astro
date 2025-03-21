@@ -93,7 +93,7 @@ const jsonLd = {
                         tags={entry.data.tags}
                         category={entry.data.category}
                 ></PostMetadata>
-                {!entry.data.image && <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div>}
+                {!entry.data.image && <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-0"></div>}
             </div>
 
             <!-- always show cover as long as it has one -->
@@ -110,7 +110,7 @@ const jsonLd = {
                 <div class="h-8 w-full"></div>
 
                 {/* Title for TOC */}
-                <h2 class="text-3xl font-bold mb-6">目次</h2> {/* Increase the font size here */}
+                <h2 class="text-3xl font-bold mb-1">目次</h2> {/* Increase the font size here */}
 
                 <TOC headings={headings}></TOC>
 

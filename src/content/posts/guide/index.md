@@ -54,12 +54,12 @@ src/content/posts/
 ## GitHub リポジトリ カード
 GitHubリポジトリにリンクする動的カードを追加できます。<br>ページの読み込み時に、リポジトリ情報が GitHub API から取得されます。
 
-::github{repo="oooo-o0/Note"}
+::github{repo="oooo-o0/oooo-o0.github.io"}
 
 下記のコードを使用して GitHub リポジトリ カードを作成します `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
-::github{repo="oooo-o0/Note"}
+::github{repo="oooo-o0/oooo-o0.github.io"}
 ```
 
 ## アラート

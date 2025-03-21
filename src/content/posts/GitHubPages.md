@@ -104,10 +104,14 @@ export default defineConfig({
 name: Deploy to GitHub Pages
 
 on:
+  # `main`ブランチにプッシュするたびにワークフローを実行します。
+  # 異なるブランチ名を使用する場合は、`main`をブランチ名に置き換えてください。
   push:
     branches: [ main ]
+  # このワークフローをGitHubのActionsタブから手動で実行できるようにします。
   workflow_dispatch:
 
+# このジョブがリポジトリをクローンし、ページデプロイメントを作成することを許可します。
 permissions:
   contents: read
   pages: write
@@ -117,10 +121,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload site
+      - name: Install, build, and upload your site
         uses: withastro/action@v3
+        # with:
+          # path: . # リポジトリ内のAstroプロジェクトのルートロケーション。（オプション）
+          # node-version: 20 # サイト構築に使用するNodeのバージョン。デフォルトは20です。（オプション）
+          # package-manager: pnpm@latest # 依存関係のインストールとサイトのビルドに使用するNodeパッケージマネージャ。ロックファイルに基づいて自動的に検出されます。（オプション）
 
   deploy:
     needs: build

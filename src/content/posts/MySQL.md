@@ -199,7 +199,7 @@ mysql> SHOW FULL COLUMNS FROM [テーブル名];
 
 ---
 
-# レコード操作関連
+# レコード操作
 
 ## データの追加
 ```sql

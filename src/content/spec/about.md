@@ -1,24 +1,25 @@
 # 習得度（3段階評価★★★）
 
 - ★★★ : インターネットや教本等を利用し、自身の力のみで課題解決できる  
-- ★★ : 講師等のサポートがあれば、課題を解決できる  
+- ★★ : 他の人のサポートがあれば、課題を解決できる  
 - ★ : 学習済みで概要をおおまかに理解している  
 
 ## 言語
 - **HTML** ★★★  
-- **CSS** ★★★  
-- **Java** ★★★  
-- **Servlet** ★★★  
-- **JSP** ★★★  
+- **CSS** ★★★
+- **JavaScript** ★★★
+- **Java** ★★★   
 - **SQL** ★★★  
 - **Markdown** ★★★  
 
 ## OS
 - **Windows** ★★★  
 - **Mac** ★★★  
-- **Linux（ターミナル/TeraTerm）** ★★★  
+- **Linux** ★★★  
 
-## フレームワーク・ライブラリ
+## フレームワーク・ライブラリ・その他
+- **Servlet** ★★★  
+- **JSP** ★★★ 
 - **Bootstrap** ★★  
 - **jQuery** ★★  
 - **chart.js** ★★  
@@ -29,7 +30,7 @@
 - **Lombok** ★★★  
 - **Thymeleaf** ★★★  
 - **MyBatis** ★★★  
-- **Validation** ★★★  
+- **JUnit** ★★★  
 
 ## データベース
 - **MySQL** ★★★  
@@ -38,17 +39,18 @@
 - **Eclipse** ★★★  
 - **VSCode** ★★★  
 - **Slack** ★★★  
-- **VirtualBox** ★★  
+- **VirtualBox** ★★★ 
 - **Notion** ★★★  
-- **WordPress** ★★  
+- **WordPress** ★  
 - **GitHub** ★★★  
-- **Figma** ★★  
-- **Nextcloud** ★★  
-- **レンタルサーバー** ★★  
+- **Figma** ★
+- **Nextcloud** ★★★
+- **レンタルサーバー** ★★★ 
 
 ## パッケージ管理
 - **Homebrew** ★★★  
-- **npm** ★★  
+- **npm** ★★★
+- **nvm** ★★★  
 
 # 個人ブログ
 **学習サイト** [Dev Wiki](https://oooo-o0.github.io/).

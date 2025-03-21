@@ -24,13 +24,15 @@
 - **jQuery** ★  
 - **chart.js** ★  
 - **Node.js** ★  
-- **React** ★★★  
+- **React** ★★★
+- **Tailwind CSS** ★★★
 - **Astro** ★★★  
 - **Spring Boot** ★★★  
 - **Lombok** ★★★  
 - **Thymeleaf** ★★★  
 - **MyBatis** ★★★  
 - **JUnit** ★
+- **Maven** ★★★
 
 ## データベース
 - **MySQL** ★★★  

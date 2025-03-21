@@ -1,8 +1,7 @@
 ---
 title: 【コマンド】バージョン・パッケージ管理【一覧】
-published: 2025-03-02
+published: 2025-03-07
 description: '基本管理ツールのコマンド一覧'
-image: ''
 tags: [パッケージ管理]
 category: 'コマンド'
 draft: false 

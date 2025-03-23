@@ -1,6 +1,6 @@
 ---
-title: 【個人開発】システム案【一覧】
-published: 2025-03-08
+title: 【設計】システム案【一覧】
+published: 2025-03-13
 description: 'いつか開発してみたいシステム一覧'
 image: ''
 tags: [Webシステム]

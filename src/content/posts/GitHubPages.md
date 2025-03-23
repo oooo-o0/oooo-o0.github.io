@@ -1,6 +1,6 @@
 ---
 title: 【完全無料】Astro + GitHub Pages でブログ構築【デプロイ手順】
-published: 2025-03-13
+published: 2025-03-16
 description: 'Astro を使用して GitHub Pages にブログを構築する方法を紹介'
 image: ''
 tags: [Astro, GitHub Pages, GitHub Actions]

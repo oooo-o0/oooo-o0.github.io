@@ -1,5 +1,5 @@
 ---
-title: 【英単語】命名規則【テンプレ】  
+title: 【設計】英語命名規則【一覧】  
 published: 2025-03-14  
 description: '変数/関数/メソッドの命名規則'  
 image: ''  
@@ -13,23 +13,23 @@ lang: 'ja'
 
 - **変数、定数、テーブル、カラム**
   - 日時を示す？
-    - **YES** → (A) 動詞 + at/on
+    - **YES** → `動詞 + at/on`
     - **NO**
       - 代入する値は boolean？
-        - **NO** → (B) 形容詞 + 名詞
+        - **NO** → `形容詞 + 名詞`
         - **YES**
           - 表示/非表示のフラグ？
-            - **YES** → (C) show + 名詞
+            - **YES** → `show + 名詞`
             - **NO**
               - 機能ON/OFFのフラグ？
-                - **YES** → (D) 名詞 + enabled
+                - **YES** → `名詞 + enabled`
                 - **NO**
                   - 存在するかどうかのフラグ？
-                    - **YES** → (E) 名詞 + exists
+                    - **YES** → `名詞 + exists`
                     - **NO**
                       - 持つ/含むかどうかのフラグ？
-                        - **YES** → (F) has/contains + 名詞
-                        - **NO** → (G) is + 形容詞
+                        - **YES** → `has/contains + 名詞`
+                        - **NO** → `is + 形容詞`
 
 ---
 
@@ -37,34 +37,34 @@ lang: 'ja'
 
 - **データソースを扱う**
   - **YES**
-    - **Server-Client** → 名詞 + Client
-    - **APIを叩くためのゲートウェイ** → 名詞 + Gateway
-    - **DBにデータを保存** → Store + 名詞
-    - **キャッシュする** → 名詞 + Cache
-    - **ログの保存場所** → 名詞 + Log
-    - **履歴の保存場所** → 名詞 + History
-    - **設定データの保存場所** → Configuration / Preference / Setting
+    - **Server-Client** → `名詞 + Client`
+    - **APIを叩くためのゲートウェイ** → `名詞 + Gateway`
+    - **DBにデータを保存** → `Store + 名詞`
+    - **キャッシュする** → `名詞 + Cache`
+    - **ログの保存場所** → `名詞 + Log`
+    - **履歴の保存場所** → `名詞 + History`
+    - **設定データの保存場所** → `Configuration / Preference / Setting`
   - **NO**
     - **データを加工する**
       - **YES**
-        - **データの絞込** → 名詞 + Filter
-        - **データを抽出** → 名詞 + Extractor
-        - **データを整形** → 名詞 + Formatter
-        - **データを集める** → 名詞 + Collector
+        - **データの絞込** → `名詞 + Filter`
+        - **データを抽出** → `名詞 + Extractor`
+        - **データを整形** → `名詞 + Formatter`
+        - **データを集める** → `名詞 + Collector`
       - **NO**
         - **データソースをラップする**
           - **YES**
-            - **DB、HTTP通信、キャッシュ等をカプセル化** → 名詞 + Provider
-            - **データ管理（モデル）** → 名詞 + Manager
-            - **データの読み込み** → 名詞 + Loader
-            - **ログを出力（またはLogクラスへのアクセスを提供）** → Logger
-            - **設定を保存** → 名詞 + Configurator
-            - **データ構造に変更を加える（バージョンアップなど）** → 名詞 + Migrator
+            - **DB、HTTP通信、キャッシュ等をカプセル化** → `名詞 + Provider`
+            - **データ管理（モデル）** → `名詞 + Manager`
+            - **データの読み込み** → `名詞 + Loader`
+            - **ログを出力（またはLogクラスへのアクセスを提供）** → `Logger`
+            - **設定を保存** → `名詞 + Configurator`
+            - **データ構造に変更を加える（バージョンアップなど）** → `名詞 + Migrator`
           - **NO**
             - **非同期処理を扱う**
               - **YES**
-                - **一連の非同期処理を行う** → 名詞 + Job / Task
-                - **与えられたJobやTaskを実行** → 名詞 + Runner
+                - **一連の非同期処理を行う** → `名詞 + Job / Task`
+                - **与えられたJobやTaskを実行** → `名詞 + Runner`
 
 ---
 
@@ -74,14 +74,14 @@ lang: 'ja'
 
 - **関数、クラス**
   - イベント関数？
-    - **YES** → (H) on + 名詞 + 形容詞
+    - **YES** → `on + 名詞 + 形容詞`
     - **NO**
       - 変換/整形する？
-        - **YES** → (I) to + 名詞
+        - **YES** → `to + 名詞`
         - **NO**
           - 何かの状態を変更したい？
-            - **YES** → (J) 動詞 + 目的語 + 形容詞
-            - **NO** → (K) 動詞 + 目的語
+            - **YES** → `動詞 + 目的語 + 形容詞`
+            - **NO** → `動詞 + 目的語`
 
 ---
 
@@ -186,9 +186,6 @@ lang: 'ja'
 ## 基本形
 - **動詞のみ**
 - **動詞 + 名詞**
-
-
----
 
 # 1. 変数の命名
 
@@ -942,3 +939,117 @@ paragraph = ""      # 段落
 sentence = ""       # 文
 word = ""           # 語
 ```
+
+# メタ構文変数
+意味のない（架空な）記述を表す識別子として使用
+```python
+# 変数（英語圏）
+foo = "英語圏でよく使われるメタ構文変数"
+bar = "foo の次によく使われる"
+baz = "bar の次によく使われる"
+qux = "baz の次によく使われる"
+quux = "qux の次によく使われる"
+corge = "quux の次によく使われる"
+grault = "corge の次によく使われる"
+garply = "grault の次によく使われる"
+waldo = "隠れたもの（Where’s Waldo? より）"
+fred = "人名由来"
+plugh = "冒険ゲームの呪文由来"
+xyzzy = "冒険ゲームの呪文由来"
+thud = "落ちる音の擬音語"
+
+# 変数（イギリス圏）— 上記に加えて
+wibble = "イギリス圏で使われるメタ構文変数"
+wobble = "wibble の次に使われる"
+wubble = "wobble の次に使われる"
+flob = "wubble の次に使われる"
+
+# 変数（日本）
+hoge = "日本で使われるメタ構文変数"
+fuga = "hoge の次に使われる"
+piyo = "fuga の次に使われる"
+hogera = "hoge の派生形"
+hogehoge = "hoge の繰り返し"
+piyopiyo = "piyo の繰り返し"
+
+# 変数（フランス）
+toto = "フランスで使われるメタ構文変数"
+tete = "toto の次に使われる"
+titi = "tete の次に使われる"
+tutu = "titi の次に使われる"
+tata = "tutu の次に使われる"
+
+# 変数（イタリア）
+pippo = "イタリアで使われるメタ構文変数"
+
+# 変数（ドイツ）
+bla = "ドイツで使われるメタ構文変数"
+blub = "bla の次に使われる"
+blabla = "blub の次に使われる"
+
+# 変数（オランダ）
+aap = "オランダで使われるメタ構文変数"
+noot = "aap の次に使われる"
+mies = "noot の次に使われる"
+wim = "mies の次に使われる"
+zus = "wim の次に使われる"
+jet = "zus の次に使われる"
+teun = "jet の次に使われる"
+vuur = "teun の次に使われる"
+gijs = "vuur の次に使われる"
+lam = "gijs の次に使われる"
+kees = "lam の次に使われる"
+bok = "kees の次に使われる"
+weide = "bok の次に使われる"
+does = "weide の次に使われる"
+hok = "does の次に使われる"
+duif = "hok の次に使われる"
+schapen = "duif の次に使われる"
+
+# 変数（Python）
+spam = "Python でよく使われるメタ構文変数"
+ham = "spam の次に使われる"
+eggs = "ham の次に使われる"
+
+# 人名（役割ごと）
+alice_bob = "大抵は Alice が Bob にメッセージを送る"
+eve = "盗聴者（Alice と Bob のメッセージを立ち聞きする）"
+mallory = "邪悪な攻撃者（改ざん・攻撃を行う）"
+oscar = "敵対者（Mallory と同様）"
+trudy = "侵入者（Mallory の代わりに使用）"
+carol_charlie = "通信における第三当事者"
+dave_ellen_frank = "第四当事者"
+trent = "信頼された調停者（中立の第三者）"
+isaac_ivan = "発行者"
+justin = "司法体系"
+matilda = "商人（電子取引・金融関係で使用）"
+pat_peggy = "証明者"
+victor = "検証者"
+plod = "法執行官吏"
+steve = "電子透かしで参照される"
+walter = "見張り番"
+zoe = "暗号プロトコルの最後の当事者"
+
+# 長い文章の例
+lorem_ipsum = "Lorem ipsum"  # ダミーテキスト（文章レイアウトのテストに使用）
+
+# 数字の例
+num_23 = 23  # 例としてよく使われる数字
+num_42 = 42  # 「人生、宇宙、すべての答え」（The Hitchhiker’s Guide to the Galaxy より）
+num_deadbeef = 0xDEADBEEF  # 16進数の例（デバッグなどでよく使われる）
+
+# ドメインの例
+domain_example_com = "example.com"  # テスト用に予約されているドメイン
+domain_example_net = "example.net"  # テスト用に予約されているドメイン
+domain_example_org = "example.org"  # テスト用に予約されているドメイン
+
+# 企業名・ブランド名の例
+company_acme = "ACME"  # 架空の企業（ワイリー・コヨーテの漫画などで使用）
+
+# ディレクトリへのパス名の例
+path_example = "path/to/dir"  # 任意のディレクトリを示すプレースホルダー
+
+# ディレクトリ間を移動するコマンドの例
+command_cd = "cd path/to/dir"  # cd（change directory）の使用例
+```
+

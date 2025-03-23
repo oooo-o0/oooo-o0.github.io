@@ -1,6 +1,6 @@
 ---
 title: 【コマンド】 MySQLチートシート【基本操作】
-published: 2025-03-12
+published: 2025-03-09
 description: ' MySQLの基本操作コマンドと構文一覧'
 image: ''
 tags: [MySQL]

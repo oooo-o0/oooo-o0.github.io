@@ -1,6 +1,6 @@
 ---
 title: 投稿の仕方
-published: 2025-03-01
+published: 2025-04-01
 description: "投稿管理と記事作成について"
 image: "./cover.jpeg"
 tags: [Astro, Markdown]

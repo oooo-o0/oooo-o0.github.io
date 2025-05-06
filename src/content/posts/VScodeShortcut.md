@@ -1,6 +1,6 @@
 ---
 title: 【Mac】VScodeショートカット集【Windows】
-published: 2025-03-03
+published: 2025-04-03
 description: 'VScodeのショートカット一覧'
 image: ''
 tags: [VScode]

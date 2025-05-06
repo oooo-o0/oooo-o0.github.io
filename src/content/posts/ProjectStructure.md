@@ -1,6 +1,6 @@
 ---
 title: 【設計】Java Webシステム【構成】
-published: 2025-03-12
+published: 2025-04-12
 description: 'Java Webアプリケーションのプロジェクト構成ガイド'
 tags: [Java, React, TailwindCSS ]
 category: '命名規則'

@@ -1,6 +1,6 @@
 ---
 title: 【索引】IT用語【一覧】
-published: 2025-03-02
+published: 2025-04-02
 description: 'IT関連の索引用メモ'
 image: ''
 tags: [基本用語]

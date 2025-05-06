@@ -1,6 +1,6 @@
 ---
 title: 【コマンド】Linuxチートシート【一覧】
-published: 2025-03-05
+published: 2025-04-05
 description: 'Linuxのコマンド一覧'
 image: ''
 tags: [Linux]

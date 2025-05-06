@@ -1,6 +1,6 @@
 ---
 title: 【コメント】アノテーションコメント【一覧】
-published: 2025-03-17
+published: 2025-04-17
 description: 'アノテーションコメントのキーワード一覧'
 image: ''
 tags: [コメント]

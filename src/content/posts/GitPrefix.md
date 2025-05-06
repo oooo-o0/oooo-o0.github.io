@@ -1,6 +1,6 @@
 ---
 title: 【コミット】先頭につけるPrefix【一覧】
-published: 2025-03-07
+published: 2025-04-07
 description: 'コミットメッセージでよく使うprefix一覧'
 image: ''
 tags: [Git]

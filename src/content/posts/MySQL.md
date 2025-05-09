@@ -10,6 +10,15 @@ lang: ''
 ---
 
 # 基本操作
+| 命令               | 意味             |
+| ---------------- | -------------- |
+| mysql            | MySQL クライアント起動 |
+| -u               | ユーザー名指定        |
+| -p               | パスワード指定（プロンプト） |
+| -h               | ホスト指定          |
+| -P               | ポート番号指定        |
+| \q / quit / exit | ログアウト          |
+| help / \h        | ヘルプ表示          |
 
 ## ローカル MySQL サーバーに接続
 ```sh
@@ -48,6 +57,15 @@ mysql> \h
 ---
 
 # ユーザー操作（root ログイン後）
+| 命令                         | 意味         |
+| -------------------------- | ---------- |
+| SELECT ... FROM mysql.user | ユーザー情報を取得  |
+| CREATE USER                | ユーザー作成     |
+| DROP USER                  | ユーザー削除     |
+| GRANT                      | 権限付与       |
+| REVOKE                     | 権限剥奪       |
+| SHOW GRANTS                | 権限一覧表示     |
+| SET PASSWORD               | パスワード設定・変更 |
 
 ## ユーザー情報の取得
 ```sql
@@ -94,6 +112,14 @@ mysql> SET PASSWORD FOR 'testuser'@'localhost' = PASSWORD('newpassword');
 ---
 
 # データベース操作
+| 命令              | 意味            |
+| --------------- | ------------- |
+| SHOW DATABASES  | データベース一覧を表示   |
+| CREATE DATABASE | データベースを作成     |
+| DROP DATABASE   | データベースを削除     |
+| USE             | 使用するデータベースを選択 |
+| mysqldump       | データベースをバックアップ |
+| mysql <         | バックアップをリストア   |
 
 ## データベース一覧の表示
 ```sql
@@ -129,6 +155,20 @@ $ mysql -u [ユーザー名] -p test_db < backup.sql
 ---
 
 # テーブル操作
+| 命令                                      | 意味            |
+| --------------------------------------- | ------------- |
+| SHOW TABLES                             | テーブル一覧を表示     |
+| SHOW TABLE STATUS                       | テーブルの詳細情報を表示  |
+| SELECT FROM information\_schema.columns | 全テーブルからカラムを検索 |
+| CREATE TABLE                            | テーブルを作成       |
+| DROP TABLE                              | テーブルを削除       |
+| TRUNCATE TABLE                          | 全データ削除（構造は保持） |
+| ALTER TABLE ... RENAME                  | テーブル名を変更      |
+| ALTER TABLE ... ADD                     | カラムを追加        |
+| ALTER TABLE ... DROP COLUMN             | カラムを削除        |
+| ALTER TABLE ... MODIFY                  | カラムのデータ型を変更   |
+| DESC                                    | テーブルの構造を表示    |
+| SHOW FULL COLUMNS                       | カラムの詳細情報を表示   |
 
 ## テーブル一覧の表示
 ```sql
@@ -200,6 +240,13 @@ mysql> SHOW FULL COLUMNS FROM [テーブル名];
 ---
 
 # レコード操作
+| 命令          | 意味     |
+| ----------- | ------ |
+| INSERT INTO | データを追加 |
+| UPDATE      | データを更新 |
+| DELETE FROM | データを削除 |
+| SELECT      | データを取得 |
+
 
 ## データの追加
 ```sql

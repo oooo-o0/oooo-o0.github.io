@@ -17,6 +17,7 @@ lang: 'ja'
  cd "C:\Users\ユーザー名\プロジェクト名"
  .\tree_with_links.ps1
 ```
+4. デスクトップ上に出力された tree_with_links.txt を Excel にドラッグ＆ドロップ
 
 
 # フォルダ構成を一瞬で把握できるスクリプトテンプレ
